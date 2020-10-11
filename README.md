@@ -1,6 +1,6 @@
 # Mortalidad
 
-Datos de mortalidad usados en [CoronaMex](coronamex.github.io).
+Datos de mortalidad usados en [CoronaMex](https://coronamex.github.io).
 
 ## Acerca de este repositorio
 
