@@ -1,6 +1,6 @@
 # Datos abiertos exceso de mortalidad
 
-El gobierno ha comensado a publicar una base de datos abiertos con
+El gobierno ha comenzado a publicar una base de datos abiertos con
 la mortalidad total por todas las causas en el país.
 
 Se espera que se actualize cada 15 días.
