@@ -1,0 +1,9 @@
+No	NOMBRE DE VARIABLE	DESCRIPCIÓN DE VARIABLE	FORMATO O FUENTE
+1	FECHA_ACTUALIZACION	La base de datos se actualiza cada 15 días, esta variable permite identificar la fecha de la ultima actualizacion	AAAA-MM-DD
+2	ID_REGISTRO	Número identificador del caso	TEXTO 
+3	ENTIDAD_REG	Identifica la entidad donde se registró la defunción	CATÁLOGO: ENTIDADES
+4	MUNICIPIO_REG	Identifica el municipio donde se registró la defunción	CATÁLOGO: MUNICIPIOS
+5	FECHA_DEFUNCION	Identifica la fecha en que ocurrió la defunción	AAAA-MM-DD
+6	FECHA_REGISTRO	Identifica la fecha en que se registró la defunción	AAAA-MM-DD
+7	SEXO	Identifica el sexo del caso de defunción	CATÁLOGO: SEXO
+8	EDAD	Identifica la edad del caso de defunción	NÚMERICA EN AÑOS
