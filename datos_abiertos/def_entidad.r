@@ -15,7 +15,7 @@
 
 library(tidyverse)
 
-Dat <- read_csv("2021-04-20/base_de_datos.csv.gz",
+Dat <- read_csv("2021-05-04/base_de_datos.csv.gz",
                 # n_max = 1e5,
                 col_types = cols(.default = col_character(),
                                  FECHA_ACTUALIZACION = col_date("%Y-%m-%d"),
