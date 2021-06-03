@@ -15,7 +15,7 @@
 
 library(tidyverse)
 
-Dat <- read_csv("2021-05-20/base_de_datos.csv.gz",
+Dat <- read_csv("2021-06-02/base_de_datos.csv.gz",
                 # n_max = 1e5,
                 col_types = cols(.default = col_character(),
                                  FECHA_ACTUALIZACION = col_date("%Y-%m-%d"),
@@ -29,4 +29,6 @@ Dat <- Dat %>%
   summarise(def_registradas = length(fecha),
             .groups = "drop") 
 Dat
+Dat %>%
+  tail
 write_csv(Dat, "defunciones_por_entidad.csv")
