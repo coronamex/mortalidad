@@ -15,12 +15,13 @@
 
 library(tidyverse)
 
-Dat <- read_csv("2021-06-02/base_de_datos.csv.gz",
+# FECHA_REGISTRO cambió a FECHA_DE_REGISTRO el 2021-06-15
+Dat <- read_csv("2021-06-15/base_de_datos.csv.gz",
                 # n_max = 1e5,
                 col_types = cols(.default = col_character(),
                                  FECHA_ACTUALIZACION = col_date("%Y-%m-%d"),
                                  FECHA_DEFUNCION = col_date("%Y-%m-%d"),
-                                 FECHA_REGISTRO = col_date("%Y-%m-%d"))) %>%
+                                 FECHA_DE_REGISTRO = col_date("%Y-%m-%d"))) %>%
   mutate(EDAD = parse_number(EDAD, na = c("NA", "", "ND", "999")))
 Dat
   
